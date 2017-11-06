@@ -1,6 +1,6 @@
 from twython import Twython
-from nltk.sentiment.vader import (printProgressBar, SentimentIntensityAnalyzer)
-from helpers import most_common
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from helpers import most_common, printProgressBar
 import sys
 import csv
 
